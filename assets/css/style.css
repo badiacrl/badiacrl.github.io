@@ -227,5 +227,5 @@ table {
 #update_user .form-group .btn:hover,
 #add_user .form-group .btn:hover {
     background-color: var(--dark);
-    color: var(--border)
+    color: var(--border);
 }
