@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
-
 :root {
     --dark: #2b2d42;
     --light: #adb5bd;
@@ -115,6 +113,27 @@ table {
     color: #fff;
     background-color: var(--dark);
     border-color: #32383e;
+}
+
+@media only screen and (max-width: 1024px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid var(--border);
+    }
+
+    td {
+        border: none;
+        position: relative;
+    }
 }
 
 .form-title {
